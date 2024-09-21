@@ -36,6 +36,10 @@ html is parsed to structure page , css is applied , js is executed to handle int
 If website is dynamic , js would send more requests via API to load additional data without refreshing the page.
 *** APIs are helpful in retrieving information from different servers , eg a weather website would provide data from the server that hosts it and the API ewould fetch live data from another server.
 
+----- 
 
+To send messages from our network to the other , we require a ISP (internet service provider); its a company through whose network of routers our message gets transferred to other network; 
+now to find which computer to send message to ; IP adddress comes into play , hence before sending the message(request) the client inputs the domain name (which further gets converted into IP address and further the server recogonizes the request and responds to that. )
 
-
+Web browser is something that we require to naviagte the web , ie a service in which we enter the domain name , it further sends the HTTPS request to server at the respective IP address and further loads the server's response (Containing HTML, CSS, JS files) and renders them , displaying the content to the user.
+The Internet is an infrastructure, whereas the Web is a service built on top of the infrastructure. there are several other services built on top of the Internet, such as email and IRC.
